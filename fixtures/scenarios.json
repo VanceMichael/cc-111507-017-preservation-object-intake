@@ -1,0 +1,62 @@
+[
+  {
+    "id": "standard",
+    "entry": "inventory.json",
+    "version": "source-v1",
+    "resources": [
+      "inventory.json",
+      "v1/payload/text.txt",
+      "inventory.json.sha512",
+      "v2/inventory.json",
+      "v2/inventory.json.sha512",
+      "0=ocfl_object_1.1"
+    ],
+    "behavior": "standard",
+    "description": "数字馆藏保管交付：standard"
+  },
+  {
+    "id": "bad-inventory-digest",
+    "entry": "inventory.json",
+    "version": "source-v1",
+    "resources": [
+      "inventory.json",
+      "v1/payload/text.txt",
+      "inventory.json.sha512",
+      "v2/inventory.json",
+      "v2/inventory.json.sha512",
+      "0=ocfl_object_1.1"
+    ],
+    "behavior": "bad-inventory-digest",
+    "description": "数字馆藏保管交付：bad-inventory-digest"
+  },
+  {
+    "id": "missing-content",
+    "entry": "inventory.json",
+    "version": "source-v1",
+    "resources": [
+      "inventory.json",
+      "v1/payload/text.txt",
+      "inventory.json.sha512",
+      "v2/inventory.json",
+      "v2/inventory.json.sha512",
+      "0=ocfl_object_1.1"
+    ],
+    "behavior": "missing-content",
+    "description": "数字馆藏保管交付：missing-content"
+  },
+  {
+    "id": "version-mismatch",
+    "entry": "inventory.json",
+    "version": "source-v1",
+    "resources": [
+      "inventory.json",
+      "v1/payload/text.txt",
+      "inventory.json.sha512",
+      "v2/inventory.json",
+      "v2/inventory.json.sha512",
+      "0=ocfl_object_1.1"
+    ],
+    "behavior": "version-mismatch",
+    "description": "数字馆藏保管交付：version-mismatch"
+  }
+]

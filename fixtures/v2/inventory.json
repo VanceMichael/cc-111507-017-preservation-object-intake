@@ -1,0 +1,31 @@
+{
+  "id": "urn:local:object:1",
+  "type": "https://ocfl.io/1.1/spec/#inventory",
+  "digestAlgorithm": "sha512",
+  "head": "v2",
+  "contentDirectory": "payload",
+  "manifest": {
+    "b97a38ffcfda7eead35edcb891ceb3d040ab9fb6bbb20f40b0a960e21fd8b11bec99ef131f48459964ac4365b8cd14f59d132e013f7e861a7dbce9c00a9c56ca": [
+      "v1/payload/text.txt"
+    ]
+  },
+  "versions": {
+    "v1": {
+      "created": "2026-11-14T00:00:00Z",
+      "state": {
+        "b97a38ffcfda7eead35edcb891ceb3d040ab9fb6bbb20f40b0a960e21fd8b11bec99ef131f48459964ac4365b8cd14f59d132e013f7e861a7dbce9c00a9c56ca": [
+          "letter.txt"
+        ]
+      }
+    },
+    "v2": {
+      "created": "2026-11-15T00:00:00Z",
+      "state": {
+        "b97a38ffcfda7eead35edcb891ceb3d040ab9fb6bbb20f40b0a960e21fd8b11bec99ef131f48459964ac4365b8cd14f59d132e013f7e861a7dbce9c00a9c56ca": [
+          "letters/main.txt",
+          "copies/main.txt"
+        ]
+      }
+    }
+  }
+}
